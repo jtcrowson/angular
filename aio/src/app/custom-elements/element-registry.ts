@@ -29,6 +29,10 @@ export const ELEMENT_MODULE_PATHS_AS_ROUTES = [
     loadChildren: './toc/toc.module#TocModule'
   },
   {
+    selector: 'aio-event-list',
+    loadChildren: './events/event-list.module#EventListModule',
+  },
+  {
     selector: 'code-example',
     loadChildren: './code/code-example.module#CodeExampleModule'
   },

@@ -30,6 +30,7 @@ describe('authors-package (integration tests)', () => {
       expect(files).toContain(resolve(DOCS_OUTPUT_PATH, '../navigation.json'));
       expect(files).toContain(resolve(DOCS_OUTPUT_PATH, '../contributors.json'));
       expect(files).toContain(resolve(DOCS_OUTPUT_PATH, '../resources.json'));
+      expect(files).toContain(resolve(DOCS_OUTPUT_PATH, '../events.json'));
       done();
     });
   });

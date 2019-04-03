@@ -4,6 +4,7 @@ module.exports = function createSitemap() {
       'navigation-json',
       'contributors-json',
       'resources-json',
+      'events-json'
     ],
     blacklistedPaths: [
       'test',
